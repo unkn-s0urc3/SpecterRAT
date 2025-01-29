@@ -1,0 +1,41 @@
+# Ignore build files (for both C++ and C#)
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.dll
+*.pdb
+*.mdb
+
+# Ignore CMake files (C++)
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# Ignore dependency files (C++)
+*.d
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.ncb
+*.vcxproj.user
+.vs/
+.vs2017/
+.vs2019/
+
+# Ignore .NET files (C#)
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore NuGet files (C#)
+.nuget/
